@@ -1,0 +1,43 @@
+
+\begin{table}[H]
+   \caption{\label{tab:H2_disruption} Two-way fixed effects panel regression estimates of disruption rate on international
+   collaboration and citation self-preference (bootstrap).}
+   \centering
+   \scriptsize
+   \renewcommand*{\arraystretch}{0.7}
+   \begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{4}{c}{Disruption rate}\\
+      Model:                                                         & (1)            & (2)            & (3)            & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      GDP per capita                                                 & 0.289          & 1.31$^{*}$     & 0.318          & 0.434\\   
+                                                                     & (0.438)        & (0.786)        & (0.534)        & (0.587)\\   
+      R\&D as \% of GDP                                              & -0.068         & -0.100         & -0.067         & -0.062\\   
+                                                                     & (0.109)        & (0.151)        & (0.108)        & (0.105)\\   
+      \# of researchers per million                                  & -0.458$^{***}$ & -0.476$^{***}$ & -0.453$^{***}$ & -0.449$^{***}$\\   
+                                                                     & (0.109)        & (0.143)        & (0.107)        & (0.111)\\   
+      International collaboration                                    & -0.804$^{***}$ &                & -0.819$^{***}$ & -0.844$^{***}$\\   
+                                                                     & (0.111)        &                & (0.149)        & (0.158)\\   
+      Citation self-preference                                       &                & 0.254          & -0.049         & -0.013\\   
+                                                                     &                & (0.191)        & (0.204)        & (0.188)\\   
+      International collaboration $\times$ Citation self-preference  &                &                &                & 0.079\\   
+                                                                     &                &                &                & (0.081)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      Country                                                        & Yes            & Yes            & Yes            & Yes\\  
+      Year                                                           & Yes            & Yes            & Yes            & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                                                   & 1,254          & 1,254          & 1,254          & 1,254\\  
+      Countries                                                      & 91             & 91             & 91             & 91\\  
+      F-test                                                         & 8.2436         & 6.6933         & 7.9542         & 7.7272\\  
+      R$^2$                                                          & 0.71207        & 0.66755        & 0.71220        & 0.71346\\  
+      Adjusted R$^2$                                                 & 0.68242        & 0.63331        & 0.68228        & 0.68339\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (Country) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}
+
+

@@ -1,0 +1,43 @@
+
+\begin{table}[H]
+   \caption{\label{tab:quality_polity2} Two-way fixed effects panel regression estimates of different dependent variables on international
+   collaboration and citation self-preference (bootstrap).}
+   \centering
+   \scriptsize
+   \renewcommand*{\arraystretch}{0.7}
+   \begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables:                                           & Top journal share & Hit rate      & novel\_pct10\_rate\_norm    & Disruption rate\\  
+      Model:                                                         & (1)               & (2)           & (3)                         & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      GDP per capita                                                 & 0.819$^{*}$       & 0.471$^{*}$   & 1.38$^{***}$                & 0.434\\   
+                                                                     & (0.453)           & (0.245)       & (0.415)                     & (0.587)\\   
+      R\&D as \% of GDP                                              & 0.204$^{**}$      & 0.026         & 0.200                       & -0.062\\   
+                                                                     & (0.091)           & (0.050)       & (0.157)                     & (0.105)\\   
+      \# of researchers per million                                  & 0.004             & 0.196$^{***}$ & 0.110                       & -0.449$^{***}$\\   
+                                                                     & (0.110)           & (0.063)       & (0.142)                     & (0.111)\\   
+      International collaboration                                    & 0.977$^{***}$     & 0.676$^{***}$ & 0.578$^{***}$               & -0.844$^{***}$\\   
+                                                                     & (0.134)           & (0.074)       & (0.123)                     & (0.158)\\   
+      Citation self-preference                                       & 0.330$^{***}$     & 0.397$^{***}$ & 0.565$^{***}$               & -0.013\\   
+                                                                     & (0.108)           & (0.056)       & (0.108)                     & (0.188)\\   
+      International collaboration $\times$ Citation self-preference  & 0.136$^{*}$       & -0.043        & -0.118                      & 0.079\\   
+                                                                     & (0.076)           & (0.042)       & (0.085)                     & (0.081)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      Country                                                        & Yes               & Yes           & Yes                         & Yes\\  
+      Year                                                           & Yes               & Yes           & Yes                         & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                                                   & 1,254             & 1,254         & 1,254                       & 1,254\\  
+      Countries                                                      & 91                & 91            & 91                          & 91\\  
+      F-test                                                         & 31.629            & 82.063        & 14.829                      & 7.7272\\  
+      R$^2$                                                          & 0.91065           & 0.96356       & 0.82694                     & 0.71346\\  
+      Adjusted R$^2$                                                 & 0.90127           & 0.95974       & 0.80878                     & 0.68339\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (Country) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}
+
+
