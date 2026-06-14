@@ -220,5 +220,14 @@ __marimo__/
 # macOS
 .DS_Store
 
+# Claude Code
+CLAUDE.md
+
+# Large raw data files (too large for GitHub)
+data/raw/CountryData/
+data/raw/oa_countrycites_noselfauthor.csv.gz
+data/raw/oa_countrycites_noselfauthor_aucboot.csv.gz
+data/raw/oa_countrycites_noselfauthoraff_aucboot.csv.gz
+
 # R
 Rplots.pdf
