@@ -16,7 +16,7 @@ code/
     H1.R                              # R: Hypothesis 1 — self-preference → international collaboration
     H1_fields.R                       # R: H1 replicated by scientific domain/field
     H2&3.R                            # R: Hypotheses 2 & 3 — quality outcomes
-    H23_fields.R                      # R: H2/3 replicated by domain
+    H2&3_fields.R                      # R: H2/3 replicated by domain
 data/
   clean/                              # Processed CSVs consumed by R regression scripts
   raw/
