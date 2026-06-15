@@ -229,5 +229,9 @@ data/raw/oa_countrycites_noselfauthor.csv.gz
 data/raw/oa_countrycites_noselfauthor_aucboot.csv.gz
 data/raw/oa_countrycites_noselfauthoraff_aucboot.csv.gz
 
+# Internal data-extraction notebooks (not part of replication materials)
+code/sciscinet.ipynb
+code/sciscinet_fields.ipynb
+
 # R
 Rplots.pdf

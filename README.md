@@ -9,7 +9,7 @@ code/
   panel_data.ipynb                    # Python: constructs the main panel dataset from raw sources
   panel_data_fields.ipynb             # Python: constructs the field-level panel dataset
   main_table1&figure2.ipynb           # Python: Table 1 (descriptive stats) and Figure 2
-  main_figure5_trajectroies.ipynb     # Python: Figure 5 (country trajectory plots)
+  main_figure5.ipynb     # Python: Figure 5 (country trajectory plots)
   SI_figures.ipynb                    # Python: supplementary figures S1–S5
   SI_compare_capactiy_index.ipynb     # Python: capacity index validation (Figures S11, Tables S9–S12)
   regression/
